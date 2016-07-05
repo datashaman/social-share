@@ -10,8 +10,12 @@ php:
   - hhvm
   - nightly
 
-install:
-  composer install
+install: travis_retry composer install --no-interaction --prefer-dist
+
+script: composer run coverage
+
+after_script:
+  - vendor/bin/test-reporter
 
 cache:
   directories:

@@ -38,6 +38,11 @@
   "require-dev": {
     "orchestra/testbench": "~3.0",
     "mockery/mockery": "^0.9.4",
-    "guzzlehttp/guzzle": ">=5.3"
+    "guzzlehttp/guzzle": ">=5.3",
+    "codeclimate/php-test-reporter": "dev-master"
+  },
+  "scripts": {
+    "test": "phpunit",
+    "coverage": "phpunit --coverage-clover build/logs/clover.xml"
   }
 }
