@@ -43,6 +43,7 @@
   },
   "scripts": {
     "test": "phpunit",
-    "coverage": "phpunit --coverage-clover build/logs/clover.xml"
+    "coverage": "phpunit --coverage-clover build/logs/clover.xml",
+    "send-coverage": "bash -c 'source .env && vendor/bin/test-reporter'"
   }
 }
