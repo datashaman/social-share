@@ -1,9 +1,15 @@
 # Share
 
+
+
 Share links with Laravel 5
 
 This is a fork to John's share for Laravel 4. 
  
+[![Build Status](https://travis-ci.org/prodeveloper/social-share.svg?branch=master)](https://travis-ci.org/prodeveloper/social-share)
+[![Code Climate](https://codeclimate.com/github/prodeveloper/social-share/badges/gpa.svg)](https://codeclimate.com/github/prodeveloper/social-share)
+[![Test Coverage](https://codeclimate.com/github/prodeveloper/social-share/badges/coverage.svg)](https://codeclimate.com/github/prodeveloper/social-share/coverage)
+
 ## Services available
 
 - Delicious : delicious
