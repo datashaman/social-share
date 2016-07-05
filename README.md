@@ -111,3 +111,5 @@ Localizing? Easy, use Laravel's trans() call:
 Create a file at resources/lang/en/share.php with your choice of subject and body. URLs arguably have a maximum length of 2000 characters.
 
 Notice the use of *<?php echo $sep; ?>*. It's the only way to print out an unencoded ampersand (if configured that way).
+
+Line to trigger change
